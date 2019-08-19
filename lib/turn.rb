@@ -14,4 +14,3 @@ end
 
 def move(board, index)
 end
-  
