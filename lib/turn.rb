@@ -30,4 +30,5 @@ end
 
 def move(board, index)
   board[index] = "X"
+  display_board(board)
 end
