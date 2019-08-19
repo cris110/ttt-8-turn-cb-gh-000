@@ -17,6 +17,10 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.to_i
   index = input_to_index(input)
+  if index.between?(1,9)
+    move(board, index)
+  else
+    turn(board)
 end
 
 def input_to_index(input)
